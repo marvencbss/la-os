@@ -8,9 +8,6 @@ while (i <10) {
 }
 
 
-
-
-
 //ex. 1
 
 let numero;
@@ -31,7 +28,6 @@ for(let i = 0;i < numeros.length;i++){
     console.log(numeros[i]);
     //console.log(numeros);
 }
-
 
 
 // ex. 2
@@ -64,15 +60,18 @@ for(let numero of numeros){
 }
 
 
-
-
 //ex. 3
 
-const palavras = ["Oi", "sumido", "tudo", "bem", "saudades"]
+const frase = ["Oi", "sumido", "tudo", "bem", "saudades"]
+let mensagemCompleta = " "
 
-for(let palavra of palavras){
-    console.log(palavra);
+for(let mensagem of frase){
+    mensagemCompleta += mensagem + " "
 }
+console.log(mensagemCompleta);
+
+
+
 
 
 
