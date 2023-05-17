@@ -66,7 +66,7 @@ const frase = ["Oi", "sumido", "tudo", "bem", "saudades"]
 let mensagemCompleta = " "
 
 for(let mensagem of frase){
-    mensagemCompleta += mensagem + " "
+    mensagemCompleta += mensagem + " ";
 }
 console.log(mensagemCompleta);
 
